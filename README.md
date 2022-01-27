@@ -1,1 +1,1 @@
-Tjournal clone
+TJournal clone
