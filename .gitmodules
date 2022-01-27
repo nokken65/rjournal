@@ -1,7 +1,7 @@
 [submodule "rjournal.frontend"]
-	path = frontend
+	path = /frontend
 	url = https://github.com/nokken65/rjournal.frontend
 
 [submodule "rjournal.backend"]
-	path = backend
+	path = /backend
 	url = https://github.com/nokken65/rjournal.backend
