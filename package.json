@@ -1,0 +1,15 @@
+{
+  "name": "rjournal",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "concurrently \"yarn postgres\" \"yarn dev:backend\" \"yarn dev:frontend\"",
+    "postgres": "docker-compose -f docker-compose.dev.yml up postgres",
+    "pgadmin": "docker-compose -f docker-compose.dev.yml up pgadmin",
+    "dev:backend": "cd rjournal.backend && yarn dev:docker",
+    "dev:frontend": "cd rjournal.frontend && yarn dev:docker"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
