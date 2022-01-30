@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "rjournal.backend"
+	},
+	{
+		"path": "rjournal.frontend"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {}
+}
